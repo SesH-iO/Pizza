@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import { GlobalStyles } from './App.styles';
+import { GlobalStyles } from './global.styles';
+import Hero from './components/Hero/hero';
 
 function App() {
 	return (
 		<Router>
 			<GlobalStyles />
-			<h1>Hello world</h1>
+			<Hero />
 		</Router>
 	);
 }
