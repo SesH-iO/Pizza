@@ -51,17 +51,17 @@ export const HeroP = styled.p`
 	margin-bottom: 2rem;
 `;
 
-export const HeroBtn = styled.button`
-	font-size: 1.4rem;
-	padding: 1rem 4rem;
-	border: none;
-	background: #e31837;
-	color: #fff;
-	transition: 0.2s ease-out;
-	cursor: pointer;
+// export const HeroBtn = styled.button`
+// 	font-size: 1.4rem;
+// 	padding: 1rem 4rem;
+// 	border: none;
+// 	background: #e31837;
+// 	color: #fff;
+// 	transition: 0.2s ease-out;
+// 	cursor: pointer;
 
-	&:hover {
-		background: #ffc500;
-		transition: 0.2s ease-out;
-	}
-`;
+// 	&:hover {
+// 		background: #ffc500;
+// 		transition: 0.2s ease-out;
+// 	}
+// `;

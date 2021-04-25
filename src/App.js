@@ -2,13 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import { GlobalStyles } from './global.styles';
-import Hero from './components/Hero/hero';
+import Index from './pages';
 
 function App() {
 	return (
 		<Router>
 			<GlobalStyles />
-			<Hero />
+			<Index />
 		</Router>
 	);
 }
