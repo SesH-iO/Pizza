@@ -10,10 +10,10 @@ export const NavbarContainer = styled.nav`
 	justify-content: center;
 	font-weight: 700;
 
-	/* @media screen and (max-width: 600px) {
+	@media screen and (max-width: 600px) {
 		justify-content: space-between;
 		margin-left: 12px;
-	} */
+	}
 `;
 
 export const NavLink = styled(Link)`
@@ -37,10 +37,9 @@ export const NavIcon = styled.div`
 	top: 0;
 	right: 0;
 	cursor: pointer;
-	color: #e31837;
+	color: #fff;
 
 	p {
-		color: #fff;
 		transform: translate(-175%, 100%);
 		font-weight: bold;
 	}
@@ -53,5 +52,6 @@ export const PizzaIcon = styled(FaPizzaSlice)`
 
 export const PizzaLogo = styled(LogoIcon)`
 	width: 50px;
+	height: 50px;
 	margin: 0 10px;
 `;
